@@ -23,7 +23,7 @@ public class Encryption {
 
 	public static void main(String args[]) {
 		Encryption alice = new Encryption(),
-				   bobby = new Encryption();
+		           bobby = new Encryption();
 
 		alice.connect(bobby.getPublicKey());
 		bobby.connect(alice.getPublicKey());
